@@ -1,0 +1,9 @@
+import pandas as pd 
+pd.read_csv('cars.csv')
+cars = pd.read_csv('cars.csv')
+
+A = cars.iloc[[0,1,2,3,4],[0,2,4,6,8,10]]
+B = cars.ix[0]
+C = cars.iloc[[23], [0, 2, 10]]
+D = cars.iloc[[1, 28, 18], [0, 2, 10]]
+
