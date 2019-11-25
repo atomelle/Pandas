@@ -7,3 +7,7 @@ B = cars.ix[0]
 C = cars.iloc[[23], [0, 2, 10]]
 D = cars.iloc[[1, 28, 18], [0, 2, 10]]
 
+print('\n',A)
+print('\n \n',B)
+print('\n \n',C)
+print('\n \n',D)
